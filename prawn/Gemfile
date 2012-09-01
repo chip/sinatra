@@ -1,0 +1,9 @@
+source :rubygems
+source :gemcutter
+
+gem 'sinatra' 
+gem 'pdfkit'
+gem 'wkhtmltopdf-binary'
+group :development do
+  gem 'shotgun'
+end

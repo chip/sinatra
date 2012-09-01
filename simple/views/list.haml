@@ -1,0 +1,6 @@
+%table
+  %tbody
+    - @subscribers.each do |s|
+      %tr
+        %td= s.id
+        %td= s.email

@@ -1,0 +1,5 @@
+%h1= @title
+%form{:method => 'POST', :action => '/email'}
+  %label Email
+  %input{:name => 'subscriber[email]'}
+  %input{:type => 'submit'}
